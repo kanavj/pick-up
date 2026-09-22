@@ -1,0 +1,21 @@
+[project]
+name = "pick-up"
+version = "0.1.0"
+description = "This project is meant to be a guitar audio transcription tool"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.2",
+    "notebook>=7.6.3",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pathlib>=1.0.1",
+    "pydantic>=2.13.5",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.8",
+]
